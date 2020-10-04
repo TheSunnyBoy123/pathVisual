@@ -1,3 +1,4 @@
+let var cols = 20;
 let isMov = false;
 let Cross;
 let picx = 5000;
@@ -31,7 +32,7 @@ function setup() {
 function draw() {
   background(255, 0, 100);
   putCross();
-  
+
 
   for (var i = 0; i < rows; i++) {
     for (var j = 0; j < cols; j++) {
@@ -64,5 +65,3 @@ function mouseClicked() {
     }
   }
 }
-
-
