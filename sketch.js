@@ -32,15 +32,14 @@ function setup() {
 
 function draw() {
   background(255, 0, 100);
-  //Drawing the grid
   putCross();
+  
 
   for (var i = 0; i < rows; i++) {
     for (var j = 0; j < cols; j++) {
       var x = i * 30;
       var y = j * 30;
 
-      noFill();
       strokeWeight(1);
       textSize(8);
       text([i, j], x + 5, y + 135);
