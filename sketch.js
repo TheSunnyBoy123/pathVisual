@@ -1,5 +1,3 @@
-var cols = 20;
-var rows = 50;
 let isMov = false;
 let Cross;
 let picx = 5000;
